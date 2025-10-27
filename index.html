@@ -1,22 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects List</title>
+  <style>
+    /* General Page Styles */
+    body {
+      font-family: "Poppins", Arial, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Header */
+    .header {
+      background: linear-gradient(135deg, #007BFF, #00C6FF);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 1px;
+    }
+
+    /* Projects List Container */
+    .Projects-List {
+      max-width: 600px;
+      margin: 50px auto;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+    }
+
+    /* Unordered List Styles */
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      margin: 15px 0;
+    }
+
+    /* Link Styles */
+    a {
+      text-decoration: none;
+      color: #007BFF;
+      font-size: 1.1rem;
+      font-weight: 500;
+      display: block;
+      padding: 12px 15px;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+
+    a:hover {
+      background-color: #007BFF;
+      color: white;
+      transform: translateX(5px);
+    }
+
+    /* Responsive Design */
+    @media (max-width: 600px) {
+      .header h1 {
+        font-size: 2rem;
+      }
+      .Projects-List {
+        margin: 20px;
+        padding: 20px;
+      }
+    }
+  </style>
 </head>
 <body>
-    <div class="header">
+  <div class="header">
     <h1>Projects List</h1>
-   </div> 
-   <div class="Projects-List">
+  </div> 
+  <div class="Projects-List">
     <ul>
-        <li><a href="Registration Form/">Registration Form</a></li>
-        <li><a href="Toggle Dark Mode/">Toggle Dark Mode</a></li>
-        <li><a href="Toggle Like and Dislike/">Toggle Like and Dislike</a></li>
-        <li><a href="Top Navigation Bar/">Top Navigation Bar</a></li>
-        <li><a href="Web Page/">Web Page</a></li>
+      <li><a href="Registration Form/">Registration Form</a></li>
+      <li><a href="Toggle Dark Mode/">Toggle Dark Mode</a></li>
+      <li><a href="Toggle Like and Dislike/">Toggle Like and Dislike</a></li>
+      <li><a href="Top Navigation Bar/">Top Navigation Bar</a></li>
+      <li><a href="Web Page/">Web Page</a></li>
     </ul>
-   </div>
+  </div>
 </body>
 </html>
